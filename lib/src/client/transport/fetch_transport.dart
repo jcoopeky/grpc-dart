@@ -441,6 +441,11 @@ class FetchClientConnection extends ClientConnection {
 
   @override
   Future<void> shutdown() async {}
+
+  @override
+  set onStateChanged(void Function(ConnectionState p1) cb) {
+    // TODO: implement onStateChanged
+  }
 }
 
 MapEntry<String, String>? _getContentTypeHeader(Map<String, String> metadata) {
