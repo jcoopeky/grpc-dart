@@ -16,8 +16,7 @@
 import 'dart:async';
 
 import 'package:args/args.dart';
-
-import 'package:interop/src/client.dart';
+import '../lib/src/client.dart';
 
 const _serverHostArgument = 'server_host';
 const _serverHostOverrideArgument = 'server_host_override';

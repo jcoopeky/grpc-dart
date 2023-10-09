@@ -17,7 +17,8 @@
 import 'dart:io';
 
 import 'package:grpc/grpc.dart';
-import 'package:helloworld/src/generated/helloworld.pbgrpc.dart';
+
+import '../lib/src/generated/helloworld.pbgrpc.dart';
 
 class GreeterService extends GreeterServiceBase {
   @override

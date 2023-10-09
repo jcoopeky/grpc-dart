@@ -15,8 +15,9 @@
 import 'dart:html';
 
 import 'package:grpc/grpc_web.dart';
-import 'package:grpc_web/app.dart';
-import 'package:grpc_web/src/generated/echo.pbgrpc.dart';
+
+import '../lib/app.dart';
+import '../lib/src/generated/echo.pbgrpc.dart';
 
 void main() {
   final channel = GrpcWebClientChannel.xhr(Uri.parse('http://localhost:8080'));

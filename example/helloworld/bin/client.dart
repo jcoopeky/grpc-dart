@@ -15,7 +15,8 @@
 
 /// Dart implementation of the gRPC helloworld.Greeter client.
 import 'package:grpc/grpc.dart';
-import 'package:helloworld/src/generated/helloworld.pbgrpc.dart';
+
+import '../lib/src/generated/helloworld.pbgrpc.dart';
 
 Future<void> main(List<String> args) async {
   final channel = ClientChannel(

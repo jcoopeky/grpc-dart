@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:route_guide/src/client.dart';
+import '../lib/src/client.dart';
 
 Future<void> main(List<String> args) async {
   await Client().main(args);

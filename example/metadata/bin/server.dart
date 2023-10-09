@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:metadata/src/server.dart';
+import '../lib/src/server.dart';
 
 void main(List<String> args) {
   Server().main(args);

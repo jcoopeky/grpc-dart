@@ -20,9 +20,9 @@ import 'dart:io';
 import 'package:args/args.dart';
 import 'package:grpc/grpc.dart';
 
-import 'package:interop/src/generated/empty.pb.dart';
-import 'package:interop/src/generated/messages.pb.dart';
-import 'package:interop/src/generated/test.pbgrpc.dart';
+import '../lib/src/generated/empty.pb.dart';
+import '../lib/src/generated/messages.pb.dart';
+import '../lib/src/generated/test.pbgrpc.dart';
 
 const _headerEchoKey = 'x-grpc-test-echo-initial';
 const _trailerEchoKey = 'x-grpc-test-echo-trailing-bin';
